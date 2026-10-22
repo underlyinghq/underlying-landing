@@ -1,0 +1,16 @@
+{
+  "name": "underlying-landing",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^7.4.2"
+  }
+}
