@@ -10,4 +10,4 @@ description: Publicar en el sitio real el cambio que Gael ya vio en el preview (
 3. Verificá que los checks pasaron (`gh pr checks`). Si alguno falló, no publiques: explicale a Gael y arreglalo.
 4. Mergeá: `gh pr merge --squash --delete-branch`.
 5. `git switch main && git pull`.
-6. Esperá uno o dos minutos y decile a Gael que ya está en el sitio real, con el link de producción (hoy `PENDIENTE_URL_WORKERS_DEV`; cuando se conecte el dominio, `https://underlyinghq.com`). Recordale que si algo quedó mal, `/deshacer` lo vuelve atrás.
+6. Esperá uno o dos minutos y decile a Gael que ya está en el sitio real, con el link de producción (hoy `https://underlying-landing.lively-king-b058.workers.dev`; cuando se conecte el dominio, `https://underlyinghq.com`). Recordale que si algo quedó mal, `/deshacer` lo vuelve atrás.
