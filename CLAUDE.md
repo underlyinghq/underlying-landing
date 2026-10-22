@@ -25,7 +25,7 @@ Los textos del sitio van en **inglés** salvo que Gael pida otra cosa. Mensajes 
 
 ## Cómo se publica
 
-Cloudflare Pages está conectado a este repo de GitHub:
+Cloudflare (Workers con archivos estáticos, configurado en `wrangler.jsonc`) está conectado a este repo de GitHub:
 - **Cualquier rama que se sube** genera una versión de prueba con su propio link (el preview). No la ve nadie que no tenga el link.
 - **Lo que entra a `main` se publica** en el sitio real en uno o dos minutos.
 
@@ -41,7 +41,7 @@ Los comandos `/nuevo-cambio`, `/ver-preview`, `/publicar` y `/deshacer` hacen ca
 4. **`npm run build` tiene que pasar antes de cada push.** Si falla, arreglarlo antes de subir.
 5. **Nada secreto en el repo.** Es un sitio estático: todo lo que está acá lo puede ver cualquiera. Ni keys, ni contraseñas, ni emails privados, ni datos que no estén listos para ser públicos.
 6. **No agregar dependencias** (`npm install <algo>`) sin explicarle a Gael para qué y que diga que sí. Preferir HTML y CSS a librerías.
-7. **No tocar lo que no es de este repo:** configuración de Cloudflare, DNS, settings del repo en GitHub, GitHub Actions, ni la app de Underlying (`underlying-app`).
+7. **No tocar lo que no es de este repo:** configuración de Cloudflare (incluido `wrangler.jsonc`), DNS, settings del repo en GitHub, GitHub Actions, ni la app de Underlying (`underlying-app`).
 8. **Una sola cuenta de GitHub: `underlyinghq`.** Si `gh auth status` muestra otra, parar y avisar.
 
 ## Cómo trabajar
