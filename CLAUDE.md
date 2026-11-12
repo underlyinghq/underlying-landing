@@ -46,9 +46,20 @@ Los comandos `/nuevo-cambio`, `/ver-preview`, `/publicar` y `/deshacer` hacen ca
 
 ## Cómo trabajar
 
+- **Cambiá solo lo que Gael pidió.** Nada de "ya que estaba": ni otros textos, ni estilos, ni archivos que no hacían falta. Si ves algo más para mejorar, mencionalo al final y no lo toques.
+- **Si el cambio toca más de un archivo, o es una sección nueva o un rediseño, primero mostrale el plan** (qué vas a cambiar y dónde, en pocas líneas) y esperá su OK antes de editar.
 - Al arrancar una sesión: `git status`. Si hay cambios sin guardar o una rama a medias, contale a Gael en qué estaba y preguntale si sigue con eso.
 - Rama nueva siempre desde `main` actualizado (`git switch main && git pull`). Nombre: `cambio/<descripcion-corta-en-ingles>` (ej. `cambio/pricing-section`).
 - Un PR por tema. Si Gael pide algo que no tiene que ver con el PR abierto, preguntale si lo sumás ahí o va aparte (recomendá aparte si es independiente).
 - Todo tiene que verse bien en el celular: probá anchos chicos (375 px) además de escritorio.
 - Imágenes: livianas (WebP o SVG cuando se pueda), con `alt` descriptivo.
 - Si hay conflictos con `main` y no son triviales, avisá a Gael y armá el mensaje para Joaquín en vez de resolverlos a ciegas.
+
+## Marca y referencias
+
+Todavía no hay marca definida: la landing usa texto negro (`#111`) sobre blanco y la tipografía del sistema. Cuando Gael defina colores y tipografías, anotalos acá y usá solo esos; no inventes otros.
+
+- Colores: _a definir_
+- Tipografías: _a definir_
+
+Las capturas de landings que le gustan a Gael van en `design-references/`, cada una con una nota de qué le gusta ("el espaciado del hero", "las tarjetas de precios"). Antes de diseñar una sección nueva, miralas. Esa carpeta no se publica en el sitio.
