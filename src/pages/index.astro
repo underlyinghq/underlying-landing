@@ -2,17 +2,49 @@
 import Base from '../layouts/Base.astro';
 ---
 
-<Base title="Underlying" description="Underlying">
+<Base
+  title="Underlying"
+  description="Go beyond the stock price. Understand the business. Make your own call. Up to 10 years of financials, guidance and segments, free. Every number sourced to the filing."
+>
   <main>
-    <h1>Underlying</h1>
-    <p>Coming soon.</p>
+    <h1>Go beyond the stock price</h1>
+    <p class="tag">Understand the business. Make your own call.</p>
+    <p class="lead">Up to 10 years of financials, guidance and segments, free.</p>
+    <p class="sub">Every number sourced to the filing. Every judgment reviewed by a person.</p>
+    <p class="soon">Coming soon.</p>
   </main>
+  <footer>
+    <p>Underlying provides research and education only. It is not investment advice.</p>
+  </footer>
 </Base>
 
 <style>
   main {
     max-width: 40rem;
     margin: 0 auto;
-    padding: 4rem 1rem;
+    padding: 4rem 1rem 2rem;
+  }
+  .tag {
+    font-size: 1.25rem;
+    color: #444;
+  }
+  .lead {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  .sub {
+    font-size: 1.125rem;
+    color: #444;
+  }
+  .soon {
+    color: #666;
+  }
+  footer {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-size: 0.875rem;
+    color: #666;
   }
 </style>
